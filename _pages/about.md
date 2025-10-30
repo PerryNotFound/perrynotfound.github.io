@@ -7,6 +7,35 @@ redirect_from:
   - /about.html
 ---
 
+<!-- 仅当前页面生效的字体缩小样式 -->
+<style>
+/* 定位页面内容区域，避免影响侧边栏等其他模块 */
+.page__content {
+  font-size: 14px; /* 正文基础字体（默认通常16px，缩小2px） */
+  line-height: 1.6; /* 保持行高，避免字体缩小后拥挤 */
+}
+
+/* 缩小各级标题字体（按比例调整，保持层级感） */
+.page__content h1 { /* 页面大标题（如姓名） */
+  font-size: 2em; /* 默认约2.4em，缩小后更协调 */
+}
+.page__content h2 { /* 模块标题（如Research Interests） */
+  font-size: 1.5em; /* 默认约1.9em，适配正文大小 */
+}
+.page__content h3 { /* 子模块标题（如Project Experience） */
+  font-size: 1.2em; /* 默认约1.5em，避免过粗过大 */
+}
+.page__content h4 { /* 项目标题（如1. Underwater Inspection Robot） */
+  font-size: 1.1em; /* 默认约1.2em，突出项目但不突兀 */
+}
+
+/* 确保列表文字与正文一致 */
+.page__content ul, 
+.page__content ol {
+  font-size: 14px;
+}
+</style>
+
 I am a current master’s student in Control Engineering at Tianjin University, with a core research focus on the field of robotics and artificial intelligence.
 
 I am pursuing my master’s degree under the supervision of Prof. Bailin Tian, and I belong to the TJU-AIR-LAB, which is part of the School of Electrical Engineering and Automation at Tianjin University. My research centers on the fundamental theories and engineering applications of robotic systems. Through close collaboration with academic mentors and industrial partners, I explore practical pathways for technology implementation. Key experiences include: participating in the core research on end-to-end trajectory planning for UAVs and exploring the integration of VLA technology with UAV trajectory planning; joining the Shanghai Abyss Science and Technology Center during my undergraduate studies, where I conducted research on underwater robot structural design and inspection algorithms under the guidance of Prof. Zhe Jiang and Mr. Gaosheng Luo; advancing research related to USV trajectory planning and underwater target recognition with Prof. Bowen Xing; founding the university’s robotic competition team, independently developing a quadruped robot, and winning a national-level award in the ROBOCON Competition; participating in the structural R&D of nursing robots at Shanghai Deyin Technology Co., Ltd.; overseeing the R&D project management of wheeled humanoid robots at Shanghai Zhiyuan Xinchuang Technology; and serving as a co-founder of the team in the Entrepreneurship Summer Camp at the Shenzhen Institute of Advanced Technology (guided by Prof. Zexiang Li), where I completed the end-to-end process of an underwater robot—from user market research to prototype development.
